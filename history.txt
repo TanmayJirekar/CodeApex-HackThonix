@@ -1,0 +1,765 @@
+
+=== Code Extracted ===
+Language: Transact-SQL
+# Route to get health data by ID
+@app.route("/get/<int:record_id>", methods=["GET"])
+def get_health_data_by_id(record_id):
+conn = get_db_connection()
+cursor = conn.cursor(dictionary=True)
+cursor.execute("SELECT * FROM health_data WHERE id = %s", (record_id,))
+data = cursor.fetchone()
+cursor.close()
+conn.close()
+
+if data:
+return jsonify(data)
+
+
+======================
+
+=== Code Extracted ===
+Language: Transact-SQL
+# Route to get health data by ID
+@app.route("/get/<int:record_id>", methods=["GET"])
+def get_health_data_by_id(record_id):
+conn = get_db_connection()
+cursor = conn.cursor(dictionary=True)
+cursor.execute("SELECT * FROM health_data WHERE id = %s", (record_id,))
+data = cursor.fetchone()
+cursor.close()
+conn.close()
+
+if data:
+return jsonify(data)
+
+
+======================
+
+=== Code Extracted ===
+Language: Transact-SQL
+# Route to get health data by ID
+@app.route("/get/<int:record_id>", methods=["GET"])
+def get_health_data_by_id(record_id):
+conn = get_db_connection()
+cursor = conn.cursor(dictionary=True)
+cursor.execute("SELECT * FROM health_data WHERE id = %s", (record_id,))
+data = cursor.fetchone()
+cursor.close()
+conn.close()
+
+if data:
+return jsonify(data)
+
+
+======================
+
+=== Code Extracted ===
+Language: Transact-SQL
+# Route to get health data by ID
+@app.route("/get/<int:record_id>", methods=["GET"])
+def get_health_data_by_id(record_id):
+conn = get_db_connection()
+cursor = conn.cursor(dictionary=True)
+cursor.execute("SELECT * FROM health_data WHERE id = %s", (record_id,))
+data = cursor.fetchone()
+cursor.close()
+conn.close()
+
+if data:
+return jsonify(data)
+
+
+======================
+
+=== Code Extracted ===
+Language: Transact-SQL
+# Route to get health data by ID
+@app.route("/get/<int:record_id>", methods=["GET"])
+def get_health_data_by_id(record_id):
+conn = get_db_connection()
+cursor = conn.cursor(dictionary=True)
+cursor.execute("SELECT * FROM health_data WHERE id = %s", (record_id,))
+data = cursor.fetchone()
+cursor.close()
+conn.close()
+
+if data:
+return jsonify(data)
+
+
+======================
+
+---
+Language: Java
+public class Addition {
+public static void main(String[] args) {
+
+int sum = num1 + num2;
+
+ystem.out.println("The sum of � + num1 + " and " + num2 + " is: � + sum);
+
+}
+
+
+---
+Language: Java
+public class Addition {
+public static void main(String[] args) {
+
+int sum = num1 + num2;
+
+ystem.out.println("The sum of � + num1 + " and " + num2 + " is: � + sum);
+
+}
+
+
+---
+Language: Java
+public class Addition {
+public static void main(String[] args) {
+
+int sum = num1 + num2;
+
+ystem.out.println("The sum of � + num1 + " and " + num2 + " is: � + sum);
+
+}
+
+
+---
+Language: Java
+public class Addition {
+public static void main(String[] args) {
+
+int sum = num1 + num2;
+
+ystem.out.println("The sum of � + num1 + " and " + num2 + " is: � + sum);
+
+}
+
+
+---
+Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: C
+#include <stdio.h>
+
+int main() {
+
+int numi, num2, sum;
+
+printf("Enter two numbers: ")
+scanf("%d %d", num1, num2); // Missing "&' before variables
+
+sum = num1 + num2;
+
+printf("The sum is: " sum); // >< Incorrect printf syntax
+
+return @ // X Missing semicolon
+
+
+---
+🖥 Language: C
+#include <stdio.h>
+
+int main() {
+
+int numi, num2, sum;
+
+printf("Enter two numbers: ")
+scanf("%d %d", num1, num2); // Missing "&' before variables
+
+sum = num1 + num2;
+
+printf("The sum is: " sum); // >< Incorrect printf syntax
+
+return @ // X Missing semicolon
+
+
+---
+🖥 Language: C
+#include <stdio.h>
+
+int main() {
+
+int numi, num2, sum;
+
+printf("Enter two numbers: ")
+scanf("%d %d", num1, num2); // Missing "&' before variables
+
+sum = num1 + num2;
+
+printf("The sum is: " sum); // >< Incorrect printf syntax
+
+return @ // X Missing semicolon
+
+
+---
+🖥 Language: C
+#include <stdio.h>
+
+int main() {
+
+int numi, num2, sum;
+
+printf("Enter two numbers: ")
+scanf("%d %d", num1, num2); // Missing "&' before variables
+
+sum = num1 + num2;
+
+printf("The sum is: " sum); // >< Incorrect printf syntax
+
+return @ // X Missing semicolon
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
+
+---
+🖥 Language: Python
+# Python program to add two numbers
+
+def add_numbers(a, b):
+return a +b
+
+numl = 10
+num2 = 20
+
+result = add_numbers(num1, num2)
+
+print("sum:", result)
+
